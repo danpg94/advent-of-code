@@ -8,7 +8,7 @@ namespace day_1
     {
         static void Main(string[] args)
         {
-            string filePath = "/home/dan/repos/advent-of-code/2025/day_1/input.txt";
+            string filePath = "input.txt";
             string[] lines = File.ReadAllLines(filePath);
             int position = 50;
             int zero_count = 0;
